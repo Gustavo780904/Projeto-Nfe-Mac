@@ -7,9 +7,6 @@
     overflow-x: hidden;
 }
 
-
-/* navbar */
-
 .dropdown-menu {
     position: absolute;
     top: 112%;
@@ -42,12 +39,6 @@ nav li a {
     color: white !important;
 }
 
-.opaco {
-    opacity: 0.5;
-    -moz-opacity: 0.5;
-    filter: alpha(opacity=5);
-}
-
 nav a:link {
     margin-left: 10px;
     margin-right: 10px;
@@ -72,7 +63,7 @@ nav h5 {
 }
 
 .bg-info {
-    background-color: #0500ff !important;
+    background-color: #ff660050 !important;
     /* opacity: 0.4;
     -moz-opacity: 0.4; */
 }
