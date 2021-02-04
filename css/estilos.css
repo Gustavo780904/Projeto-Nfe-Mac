@@ -3,23 +3,49 @@
     margin: 0px;
 }
 
+.tiraBarra {
+    overflow-x: hidden;
+}
+
 
 /* navbar */
 
-.logo {
-    z-index: -3;
+.dropdown-menu {
+    position: absolute;
+    top: 112%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 100%;
+    padding: 0.5rem 0;
+    margin: 0.125rem 0 0;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 0.25rem;
 }
 
 nav {
     background-image: linear-gradient( rgba(74, 74, 77, 0.5), rgba(74, 74, 77, 0.5)), url("/imagens/cabecalho2.jpg");
     background-size: cover;
-    opacity: 0.95;
+    /* opacity: 0.95;
     -moz-opacity: 0.95;
-    filter: alpha(opacity=95);
+    filter: alpha(opacity=95); */
 }
 
 nav li a {
     color: white !important;
+}
+
+.opaco {
+    opacity: 0.5;
+    -moz-opacity: 0.5;
+    filter: alpha(opacity=5);
 }
 
 nav a:link {
@@ -31,7 +57,7 @@ nav a:link {
 }
 
 .navLinkDrop {
-    color: darkslategray !important;
+    color: rgb(0, 0, 0) !important;
 }
 
 nav h5 {
@@ -46,13 +72,24 @@ nav h5 {
 }
 
 .bg-info {
-    background-color: #ff55069a !important;
+    background-color: #0500ff !important;
+    /* opacity: 0.4;
+    -moz-opacity: 0.4; */
 }
 
-.navbar {
-    opacity: 0.75;
-    -moz-opacity: 0.75;
-    filter: drop-shadow(45);
+.bordaBotaoTransparente {
+    border-color: #caddf1;
+}
+
+
+/* conteudo */
+
+thead {
+    margin-top: 20px;
+}
+
+.tdcliente {
+    font-size: 13px;
 }
 
 
