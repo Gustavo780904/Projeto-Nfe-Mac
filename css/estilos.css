@@ -28,11 +28,8 @@
 }
 
 nav {
-    background-image: linear-gradient( rgba(74, 74, 77, 0.5), rgba(74, 74, 77, 0.5)), url("/imagens/cabecalho2.jpg");
+    background-image: linear-gradient( rgba(80, 83, 119, 0.568), rgba(255, 138, 5, 0.541)), url("/imagens/cabecalho4.jpg");
     background-size: cover;
-    /* opacity: 0.95;
-    -moz-opacity: 0.95;
-    filter: alpha(opacity=95); */
 }
 
 nav li a {
@@ -63,7 +60,7 @@ nav h5 {
 }
 
 .bg-info {
-    background-color: #ff660050 !important;
+    background-color: #f860085d !important;
     /* opacity: 0.4;
     -moz-opacity: 0.4; */
 }
