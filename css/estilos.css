@@ -3,6 +3,11 @@
     margin: 0px;
 }
 
+body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
 .tiraBarra {
     overflow-x: hidden;
 }
@@ -30,6 +35,8 @@
 nav {
     background-image: linear-gradient( rgba(80, 83, 119, 0.568), rgba(255, 138, 5, 0.541)), url("/imagens/cabecalho4.jpg");
     background-size: cover;
+    top: 0;
+    width: 100%;
 }
 
 nav li a {
@@ -61,8 +68,6 @@ nav h5 {
 
 .bg-info {
     background-color: #f860083f !important;
-    /* opacity: 0.4;
-    -moz-opacity: 0.4; */
 }
 
 .bordaBotaoTransparente {
@@ -72,9 +77,11 @@ nav h5 {
 
 /* conteudo */
 
-thead {
+
+/* thead {
     margin-top: 20px;
-}
+    position: static;
+} */
 
 .tdcliente {
     font-size: 13px;
@@ -85,6 +92,7 @@ thead {
 
 footer {
     position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100%;
 }
